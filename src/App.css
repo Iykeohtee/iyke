@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+nav{
+  display: flex ;
+  align-items: center;
+  background: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+nav > h2, nav > h3{
+   margin: 0;
+}
+nav > h2{
+  margin-right: auto; 
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 28px;
+}
+nav > img{
+  margin-right: 7px; 
+  height: 500px; 
+}
+nav > h3{
+  color: #DEEBF8;
+}
+main{
+  background-color: #282D35;
+  padding: 57px 27px;
+  height: 100vh;
+  color: #fff;
+  background-image: url(./logo.svg);
+  background-repeat: no-repeat;
+  background-position: 200% 75%; 
+}
+.main--title{
+  margin: 0;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39.6px;
+  letter-spacing: -0.05em;
+}
+.main--facts{
+  margin-top: 20px;
+  max-width: 400px;
+}
+.main--facts > li{
+  line-height: 25px;
+  padding-block: 10px;
+}
+.main--facts > li::marker{
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
+
+
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
